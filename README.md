@@ -1,4 +1,4 @@
-# vipthink_bonus_mall
+# blog
 
 ## Project setup
 ```
