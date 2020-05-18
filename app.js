@@ -2,7 +2,7 @@ const querystring = require('querystring')
 const handleBlogRouter = require('./src/router/blog')
 const handleUerRouter = require('./src/router/user')
 
-// 用于处理post data
+// 用于处理post data 
 const getPostData = (req) => {
   const promise = new Promise((resolve, reject) => {
     if (req.method !== 'POST') {
